@@ -3,6 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
 });
 
-// module.exports = {
-//   publicPath: "vue-app",
-// };
+module.exports = {
+  publicPath: "vue-app",
+};
