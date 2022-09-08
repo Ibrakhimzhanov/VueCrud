@@ -26,7 +26,7 @@
             </button>
           </td>
           <td v-else>
-            <button @click="editMode(employee)">Изменить</button>
+            <button @click="editMode(employee.id)">Изменить</button>
             <button @click="$emit('delete:employee', employee.id)">
               Удалить
             </button>

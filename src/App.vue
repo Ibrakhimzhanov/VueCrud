@@ -81,7 +81,6 @@ export default {
         const data = await response.json();
         this.employees = this.employees.map((emp) => {
           emp.id === id ? data : emp;
-          console.log(updatedEmployee, emp);
         });
       } catch (errors) {
         console.error(errors);
